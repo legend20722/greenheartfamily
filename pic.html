@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Using Multiple File Upload
+    </title>
+</head>
+<body style="background-color:green;">
+
+
+
+    <h3>
+        Show a file-select field which allows
+        multiple files to be chosen:
+    </h3>
+    <form action="/action_page.php" method="post" enctype="multipart/form-data">
+        <label for="myfile">Select a file:</label>
+        <input type="file"
+               id="myfile"
+               name="myfile"
+               multiple="multiple" />
+        <br /><br />
+        <input type="submit" />
+    </form>
+</body>
+
+</html>
